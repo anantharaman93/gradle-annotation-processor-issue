@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    compileOnly project(":annotation")
+    compileOnly project(":processor")
+    annotationProcessor project(":processor")
+}
